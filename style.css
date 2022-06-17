@@ -1,16 +1,32 @@
+
+#section1 {
+  height: 450px;
+  width: 900px;
+}
+
+#section2 {
+  height: 375px;
+  width: 300px;
+}
+
+#section3 {
+  height: ;
+  width: ;
+}
+
 header {
-    height: 75px;
-    border: thin solid black;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-  }
+  height: 75px;
+  border: thin solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
   
-  p, div {
-    /* display: inline-block; */
-    /* position: absolute; */
-  }
+p.text, div { 
+  position: absolute; 
+  float: right;
+}
   
   #text {
     width: 75%;
