@@ -2,6 +2,9 @@
 #section1 {
   height: 450px;
   width: 900px;
+  display: flex;
+  align-items: center;
+  margin: 20px;
 }
 
 #section2 {
@@ -10,12 +13,21 @@
 }
 
 #section3 {
-  height: ;
-  width: ;
+  position: absolute;
+  height: 480px;
+  width: 480px;
+  margin: 20px;
+}
+
+#header1 {
+  height: 70px;
+  width: 200px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 header {
-  height: 75px;
+  height: 100px;
   border: thin solid black;
   display: flex;
   flex-direction: row;
@@ -24,8 +36,10 @@ header {
 }
   
 p.text, div { 
+  display: inline-block;
   position: absolute; 
   float: right;
+  margin-left: auto;
 }
   
   #text {
@@ -39,7 +53,7 @@ p.text, div {
   a {
     width: 50px;
     height: px;
-    background-color: yellow;
+    background-color: lawngreen;
     display: inline-block;
     margin: 15px 20px 15px 20px;
   }
@@ -48,29 +62,17 @@ p.text, div {
     height: calc(100vh - 125px);
   }
   
-  .half {
-    /* position: relative; */
-    /* We need to set a baseline for inline-block elements with children in order for them to sit next to each other */
-    vertical-align: top; 
-    width: calc(50% - 4px);
-    height: 100%;
-    display: inline-block;
-    border: thin solid red;
-  }
+ 
   
   img {
     width: 100px;
     margin: 0 10px 0 10px;
   }
   
-  .img-row {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
+  
   
   footer {
     width: 100%;
-    height: 75px;
+    height: 25px;
     background-color: grey;
   }
