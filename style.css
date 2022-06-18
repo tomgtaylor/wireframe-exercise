@@ -1,8 +1,8 @@
 #headerdiv {
-  border: thin solid red;
   position: relative;
   display: flex;
   margin-right: 20px;
+  /* border: thin solid red; */
 }
 
 #header-logo {
@@ -15,12 +15,20 @@
 }
 
 a {
-  width: 90px;
-  height: 45px;
-  /* background-color: lawngreen; */
+  width: 100px;
+  height: 25px;
+  background-color: whitesmoke;
   display: inline-block;
-  margin: 30px 25px 20px 25px;
-  font-size: 20px;
+  margin: 20px 20px 20px 20px;
+  font-size: 22px;
+  border: 25px;
+  padding: 5px;
+  padding-left: 10px;
+}
+
+a.anchor:hover {
+  background-color: rgb(46, 41, 41);
+  color: white;
 }
 
 #section1 {
@@ -30,13 +38,13 @@ a {
   margin:auto;
   margin-bottom: 20px;
   margin-top: 20px;
-  border: thin solid greenyellow;
+  /* border: thin solid greenyellow; */
 }
 
 #divsection2 {
   position:relative;
   display: flex;
-  border: thin solid red;
+  /* border: thin solid red; */
   margin-right: 450px;
   margin-left: 465px;
 }
@@ -53,7 +61,7 @@ a {
   position:relative;
   display: inline-flex;
   width: ;
-  border: thin solid rgb(51, 179, 100);
+  /* border: thin solid rgb(51, 179, 100); */
 }
 
   #section3 {
@@ -62,7 +70,7 @@ a {
     width: 480px;
     margin: 20px;
     margin-left: 475px;
-    border: thin solid royalblue;
+    /* border: thin solid royalblue; */
   }
 
   #divtext {
@@ -75,7 +83,7 @@ a {
     margin-left: 10px;
     margin-right: 35px;
     margin-top: 20px;
-    border: thin solid red;
+    /* border: thin solid red; */
     display: grid;
     grid-template: 1fr / 1fr;
     place-items: left;
@@ -97,23 +105,21 @@ a {
     }
 
       .paragraphs { 
-        border: thin solid green;
+        /* border: thin solid green; */
         height: 140px;
       }
 
 header {
   height: 100px;
+  background-color: gray;
   border: thin solid black;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
 }
-  
 
-
-  
-  /* main {
+   /* main {
     height: calc(100vh - 125px);
   } */
   
@@ -122,12 +128,12 @@ header {
     margin: 0 10px 0 10px;
   } */
   
-#button {
+#button-div {
   margin-right: ;
   position: relative;
   height: 50px;
   width: 300px;
-  border: thin solid blue;
+  /* border: thin solid blue; */
 }
 
 #button1 {
@@ -137,6 +143,10 @@ header {
   width: 250px;
   font-size: 30px;
   text-align: center;
+}
+button:hover {
+  background-color: greenyellow;
+  border: thin solid lightgreen;
 }
   
   #section4 {
