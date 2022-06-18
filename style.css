@@ -1,30 +1,105 @@
+#headerdiv {
+  border: thin solid red;
+  position: relative;
+  display: flex;
+  margin-right: 20px;
+}
+
+#header-logo {
+  position: relative;
+  height: 70px;
+  width: 200px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right:50px;
+}
+
+a {
+  width: 90px;
+  height: 45px;
+  /* background-color: lawngreen; */
+  display: inline-block;
+  margin: 30px 25px 20px 25px;
+  font-size: 20px;
+}
 
 #section1 {
   height: 450px;
   width: 900px;
   display: flex;
-  align-items: center;
-  margin: 20px;
+  margin:auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border: thin solid greenyellow;
 }
 
-#section2 {
-  height: 375px;
-  width: 300px;
+#divsection2 {
+  position:relative;
+  display: flex;
+  border: thin solid red;
+  margin-right: 450px;
+  margin-left: 465px;
 }
 
-#section3 {
-  position: absolute;
-  height: 480px;
-  width: 480px;
-  margin: 20px;
+    .section2 {
+      position:relative;
+      height: 375px;
+      width: 300px;
+      margin: 10px;
+      
+    }
+/*  below imgandtext div includes the section 3 banner image, 3 paragraphs, and the button */
+#imgandtext {
+  position:relative;
+  display: inline-flex;
+  width: ;
+  border: thin solid rgb(51, 179, 100);
 }
 
-#header1 {
-  height: 70px;
-  width: 200px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
+  #section3 {
+    position: relative;
+    height: 480px;
+    width: 480px;
+    margin: 20px;
+    margin-left: 475px;
+    border: thin solid royalblue;
+  }
+
+  #divtext {
+    position:relative;
+    display: flex;
+
+    height: 425px;
+    width: 500px;
+    float: right;
+    margin-left: 10px;
+    margin-right: 35px;
+    margin-top: 20px;
+    border: thin solid red;
+    display: grid;
+    grid-template: 1fr / 1fr;
+    place-items: left;
+  }
+    #divp1 {
+
+      font-size: 20px;
+      width: 500px;
+    }
+    
+    #divp2 {
+      font-size: 20px;
+      width: 500px;
+    }
+
+    #divp3 {
+      font-size: 20px;
+      width: 500px;
+    }
+
+      .paragraphs { 
+        border: thin solid green;
+        height: 140px;
+      }
 
 header {
   height: 100px;
@@ -35,43 +110,37 @@ header {
   align-items: center;
 }
   
-p.text, div { 
-  display: inline-block;
-  position: absolute; 
-  float: right;
-  margin-left: auto;
-}
+
+
   
-  #text {
-    width: 75%;
-    height: 200px;
-    /* border: thin solid blue; */
-    margin: 40px auto 40px auto;
-    overflow-y: scroll;
-  }
-  
-  a {
-    width: 50px;
-    height: px;
-    background-color: lawngreen;
-    display: inline-block;
-    margin: 15px 20px 15px 20px;
-  }
-  
-  main {
+  /* main {
     height: calc(100vh - 125px);
-  }
+  } */
   
- 
-  
-  img {
+  /* img {
     width: 100px;
     margin: 0 10px 0 10px;
-  }
+  } */
   
+#button {
+  margin-right: ;
+  position: relative;
+  height: 50px;
+  width: 300px;
+  border: thin solid blue;
+}
+
+#button1 {
+  float: left;
+  align-items: center;
+  height: 40px;
+  width: 250px;
+  font-size: 30px;
+  text-align: center;
+}
   
-  
-  footer {
+  #section4 {
+    position: relative;
     width: 100%;
     height: 25px;
     background-color: grey;
