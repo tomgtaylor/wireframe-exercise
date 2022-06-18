@@ -37,16 +37,19 @@ a.anchor:hover {
   display: flex;
   margin:auto;
   margin-bottom: 20px;
-  margin-top: 20px;
+  margin-top: 30px;
   /* border: thin solid greenyellow; */
 }
 
 #divsection2 {
   position:relative;
   display: flex;
+  width: 975px;
+  padding: 15px;
+  margin: auto;
+  /* margin-right: 480px;
+  margin-left: 420px; */
   /* border: thin solid red; */
-  margin-right: 450px;
-  margin-left: 465px;
 }
 
     .section2 {
