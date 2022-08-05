@@ -29,6 +29,10 @@ a {
 a.anchor:hover {
   background-color: rgb(46, 41, 41);
   color: white;
+  transition: .3s;
+  transform: scale(1.5);
+  /* opacity: 5; */
+  /*  transition */ 
 }
 
 #section1 {
@@ -47,7 +51,7 @@ a.anchor:hover {
   width: 1000px;
   padding: 15px;
   margin: auto;
-  margin-right: ;
+  /* margin-right: ; */
   /* margin-right: 480px;
   margin-left: 420px; */
   /* border: thin solid red; */
